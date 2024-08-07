@@ -81,4 +81,4 @@ Di desa Imago, image features digunakan dalam berbagai aplikasi. Dalam **object 
 Melalui pemahaman yang mendalam dan penerapan prinsip-prinsip fitur gambar, penduduk Imago telah mengubah desa mereka menjadi pusat inovasi dan kreativitas dalam dunia pemrosesan gambar. Seperti bagaimana manusia melihat dan memahami dunia, para Pembuat Fitur terus berusaha untuk membuat komputer "melihat" dengan cara yang sama, membawa kita lebih dekat ke masa depan di mana mesin dapat benar-benar memahami dunia visual di sekitar kita.
 
 
-![Description of image](photo/1.jpg)
+![Description of image](photo/1.JPG)
