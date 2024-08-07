@@ -83,3 +83,11 @@ if __name__ == "__main__":
     root = tk.Tk()
     app = QuizApp(root, "1.csv")
     root.mainloop()
+
+#cekgitcekgitcekgit
+#cekgitcekgitcekgit
+#cekgitcekgitcekgit
+#cekgitcekgitcekgit
+#cekgitcekgitcekgit
+#cekgitcekgitcekgit
+#cekgitcekgitcekgit
