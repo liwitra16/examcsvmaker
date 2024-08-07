@@ -1,8 +1,10 @@
 •	Pemahaman Mendalam tentang Image Features
+
 a. Penjelasan dengan Metode Feynman
 Apa itu Image Features?
 •	Definisi: Image features adalah vektor yang mewakili gambar dalam bentuk yang lebih kompak dan efisien. Mereka menangkap informasi penting yang ada dalam gambar.
 •	Contoh Image Features: Image features meliputi blob, edges (tepi), corners (sudut), ridges (punggung bukit), circles (lingkaran), ellipses (elips), dan lines (garis).
+
 Mengapa Kita Membutuhkan Image Features?
 •	Tujuan: Image features digunakan untuk merepresentasikan gambar sebagai vektor fitur, memungkinkan pemrosesan yang lebih efisien dan andal.
 •	Aplikasi:
@@ -12,18 +14,23 @@ o	Image Classification: Mengklasifikasikan gambar ke dalam kategori.
 o	Image Retrieval: Mencari dan mengambil gambar berdasarkan fitur.
 o	Image Stitching: Menggabungkan beberapa gambar menjadi satu panorama.
 o	Object Tracking: Melacak pergerakan objek dalam video.
+
 Keterbatasan Menggunakan Nilai Piksel Langsung
 •	Variabilitas: Nilai piksel dapat berubah karena pencahayaan, warna, sudut, dan orientasi kamera.
 •	Redundansi: Nilai piksel seringkali berlebihan dan tidak efisien untuk pemrosesan.
+
 Properti yang Diinginkan dari Features
 •	Reproducibility (Robustness): Fitur harus dapat dideteksi di lokasi yang sama dalam gambar yang berbeda meskipun ada perubahan pencahayaan dan sudut pandang.
 •	Saliency (Descriptiveness): Titik-titik penting yang mirip dalam gambar berbeda harus memiliki fitur yang mirip.
 •	Compactness (Efficiency): Fitur harus sedikit dan kecil untuk efisiensi pemrosesan.
+
 b. Analogi Sederhana
 •	Image Features: Bayangkan gambar sebagai buku, dan image features adalah ringkasan dari buku tersebut. Mereka menangkap esensi dan informasi penting dari gambar tanpa menyertakan setiap detail kecil.
+
 c. Tips/Trik/Fakta Unik
 •	Asal Kata: "Feature" berasal dari bahasa Latin "factura," yang berarti "pembuatan" atau "bentuk." Dalam konteks ini, image features adalah bentuk-bentuk atau elemen-elemen penting dari gambar.
 •	Fakta Unik: Image features memungkinkan komputer untuk "melihat" dan "memahami" gambar dengan cara yang mirip dengan bagaimana manusia mengenali objek dan pola.
+
 d. Cerpen: Petualangan di Dunia Fitur Gambar
 Di sebuah desa kecil bernama Imago, penduduknya dikenal dengan keahliannya dalam mengolah gambar menjadi bentuk yang lebih berarti. Setiap gambar di desa ini bukan hanya sekadar warna dan piksel, melainkan kumpulan fitur penting yang menceritakan cerita tersendiri.
 Para Pembuat Fitur
