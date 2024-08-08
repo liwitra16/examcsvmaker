@@ -1,0 +1,47 @@
+Question;Option A;Option B;Option C;Option D;Option E;Correct Answer
+Which statement is incorrect about R-CNN?;A. R-CNN generates region proposals using selective search.;B. Each region proposal is processed independently by the CNN.;C. R-CNN is faster than Fast R-CNN.;D. R-CNN uses SVMs for classification after feature extraction.;;C
+Which statement is false regarding IoU in object detection?;A. IoU measures the overlap between predicted and ground truth bounding boxes.;B. A higher IoU indicates better accuracy of the predicted box.;C. IoU is used to suppress redundant boxes in Non-Maximum Suppression.;D. IoU values range between 0 and 2.;;D
+Which method is not used for improving the speed of object detection algorithms?;A. RoI Pooling;B. Feature Pyramid Networks;C. Region Proposal Networks;D. Transfer Learning;;B
+Which dataset is not typically used for object detection tasks?;A. PASCAL VOC;B. MS COCO;C. ImageNet;D. Kinetics;;D
+Which of the following is not a feature of the YOLO algorithm?;A. Real-time detection capability;B. Processing images in a single network pass;C. Using anchor boxes for predictions;D. Producing region proposals via selective search;;D
+What is a limitation of the original SSD algorithm?;A. It can only detect a single class per image.;B. It does not support multi-scale feature extraction.;C. It struggles with small object detection.;D. It requires region proposals before detection.;;C
+Which statement about Fast R-CNN is incorrect?;A. It uses a single-stage training process.;B. It applies RoI pooling to feature maps.;C. It requires separate training for region proposals.;D. It uses softmax for classification.;;C
+Which of the following is true for Non-Maximum Suppression (NMS)?;A. It increases the number of bounding boxes.;B. It helps reduce redundancy in detections.;C. It prioritizes boxes with lower confidence scores.;D. It is only used in Faster R-CNN.;;B
+Which characteristic does not apply to Fully Convolutional Networks (FCNs)?;A. They use fully connected layers for predictions.;B. They can produce pixel-wise predictions.;C. They replace dense layers with convolutional layers.;D. They can handle variable input sizes.;;A
+Which statement about U-Net is false?;A. U-Net is primarily used for semantic segmentation.;B. U-Net incorporates skip connections between encoder and decoder.;C. U-Net cannot be modified for 3D data.;D. U-Net is effective in medical image analysis.;;C
+Which feature is not part of RetinaNet?;A. Feature Pyramid Networks;B. Focal Loss;C. Region Proposal Networks;D. One-stage detection;;C
+Which is incorrect about Mask R-CNN?;A. It extends Faster R-CNN with a mask prediction branch.;B. It only predicts object classes without localization.;C. It can segment object instances.;D. It uses RoIAlign instead of RoIPool.;;B
+Which task does not fall under computer vision?;A. Image Classification;B. Semantic Segmentation;C. Speech Recognition;D. Object Detection;;C
+Which statement is false about C3D networks?;A. C3D networks learn spatiotemporal features from videos.;B. They use 3D convolutions over spatial and temporal dimensions.;C. They are designed for real-time video segmentation.;D. C3D can capture motion information in video sequences.;;C
+Which is not a challenge in video understanding?;A. High computational cost;B. Temporal complexity;C. Limited visual content;D. Large data volume;;C
+Which model does not utilize anchors for detection?;A. Faster R-CNN;B. YOLO;C. SSD;D. U-Net;;D
+What is a primary characteristic of a two-stream network for video classification?;A. Uses audio and video streams;B. Combines spatial and temporal information;C. Employs two CNNs for image classification;D. Focuses on color and depth data;;B
+Which feature is not part of the Fast R-CNN architecture?;A. RoI Pooling;B. Multi-task loss;C. Region Proposal Network;D. Single convolutional feature map;;C
+Which dataset is specifically designed for video classification tasks?;A. ImageNet;B. Kinetics;C. MS COCO;D. CIFAR-10;;B
+What is incorrect about sliding window techniques?;A. They process the entire image at once.;B. They systematically move a window across an image.;C. They are computationally expensive for large images.;D. They can be used for object detection.;;A
+Which of the following does not involve pixel-wise prediction?;A. Semantic Segmentation;B. Instance Segmentation;C. Image Classification;D. Edge Detection;;C
+Which architecture is not primarily used for video analysis?;A. Two-stream Network;B. LSTM Networks;C. AlexNet;D. C3D;;C
+Which is true about Online Hard Example Mining (OHEM)?;A. It focuses on easy examples during training.;B. It helps mitigate class imbalance by prioritizing hard samples.;C. It requires less computational resources.;D. It discards all easy examples in training.;;B
+What is a major limitation of using a sliding window approach?;A. It is too fast for real-time applications.;B. It often misses objects in images.;C. It is not compatible with CNNs.;D. It is computationally intensive.;;D
+Which of the following is false regarding instance segmentation?;A. It assigns a label to every pixel.;B. It distinguishes between different instances of the same class.;C. It is used in applications like autonomous driving.;D. It does not require object localization.;;D
+Which method is not typically used for semantic segmentation?;A. U-Net;B. Fully Convolutional Networks (FCNs);C. Mask R-CNN;D. YOLO;;D
+Which is not a component of the Faster R-CNN model?;A. RoI Pooling;B. Region Proposal Network;C. Focal Loss;D. Softmax classifier;;C
+Which statement about semantic segmentation is incorrect?;A. It labels each pixel in the image.;B. It can differentiate between multiple objects of the same class.;C. It uses techniques like FCNs and U-Net.;D. It does not localize objects.;;B
+Which feature is not part of the SSD architecture?;A. Multi-scale feature maps;B. Single network pass;C. Region Proposal Network;D. Default boxes (anchors);;C
+What is a disadvantage of YOLO compared to other object detectors?;A. It has a higher computational cost.;B. It struggles with small object detection.;C. It requires multiple network passes.;D. It uses complex post-processing steps.;;B
+Which statement about video datasets is false?;A. Video datasets are typically smaller than image datasets.;B. They often include annotations for action recognition.;C. Video datasets capture temporal dynamics.;D. They can be used for tasks like object tracking.;;A
+Which feature does the two-stream network leverage?;A. Color and depth information;B. Temporal and spatial streams;C. Audio and video data;D. High and low-resolution images;;B
+Which statement about feature pyramid networks is false?;A. They help detect objects at multiple scales.;B. They increase computational cost significantly.;C. They enhance feature maps for object detection.;D. They are used in architectures like RetinaNet.;;B
+Which component is not present in a typical CNN architecture?;A. Convolutional layers;B. Fully connected layers;C. Recurrent layers;D. Pooling layers;;C
+Which task is not associated with Mask R-CNN?;A. Object detection;B. Semantic segmentation;C. Instance segmentation;D. Real-time video processing;;D
+What is a key benefit of using RoIAlign in Mask R-CNN?;A. Faster processing speed;B. Improved alignment of pixel regions;C. Reduced memory usage;D. Enhanced color accuracy;;B
+Which statement about the ImageNet dataset is incorrect?;A. It is primarily used for image classification.;B. It contains over a million labeled images.;C. It provides annotations for video data.;D. It is used for benchmarking image recognition models.;;C
+Which characteristic is not typical of CNNs?;A. Weight sharing;B. Local connectivity;C. Fixed-size input requirement;D. Translation invariance;;C
+Which factor is not a challenge in processing videos?;A. High frame rate;B. Low data volume;C. Complex temporal relationships;D. Significant computational cost;;B
+Which is true about region proposals in object detection?;A. They are always generated using neural networks.;B. They define potential locations of objects in images.;C. They are used only in the YOLO architecture.;D. They increase the number of false positives.;;B
+Which statement is false about the AlexNet architecture?;A. It was one of the first CNNs to achieve high accuracy on ImageNet.;B. It uses dropout to reduce overfitting.;C. It employs LSTM layers for temporal analysis.;D. It has multiple convolutional layers.;;C
+Which is incorrect about feature extraction in CNNs?;A. It involves learning hierarchical features.;B. It uses fully connected layers for spatial features.;C. It relies on convolutional layers.;D. It benefits from pooling operations.;;B
+Which statement about data augmentation is true?;A. It decreases model generalization.;B. It artificially increases dataset size.;C. It is only applicable to video data.;D. It reduces computational complexity.;;B
+Which statement about transfer learning is incorrect?;A. It involves using pre-trained models for new tasks.;B. It is only effective with large datasets.;C. It can reduce training time.;D. It leverages learned features from previous tasks.;;B
+Which network does not primarily focus on temporal information?;A. LSTM;B. RNN;C. CNN;D. C3D;;C
+Which property is not commonly associated with VGGNet?;A. Deep architecture with many layers;B. Use of small (3x3) convolutional filters;C. Extensive use of batch normalization;D. Uniform architecture design;;C

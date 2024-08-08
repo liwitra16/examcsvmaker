@@ -81,11 +81,15 @@ class QuizApp:
             self.show_question()
 
     def finish_quiz(self):
-        answered_questions = sum(1 for answer in self.user_answers if any(answer))
-        correct_answers = sum(1 for i, answer in enumerate(self.user_answers) if answer and answer[ord(self.questions[i]['Correct Answer']) - 65])
+        answered_questions = sum(1 for answer in self.user_answers if answer is not None and any(answer))
+        correct_answers = sum(
+            1 for i, answer in enumerate(self.user_answers) 
+            if answer is not None and any(answer) and answer[ord(self.questions[i]['Correct Answer']) - 65]
+        )
         incorrect_answers = answered_questions - correct_answers
         messagebox.showinfo("Quiz Summary", f"Total Questions: {len(self.questions)}\nQuestions Answered: {answered_questions}\nCorrect Answers: {correct_answers}\nIncorrect Answers: {incorrect_answers}")
         self.root.quit()
+
 
 if __name__ == "__main__":
     root = tk.Tk()

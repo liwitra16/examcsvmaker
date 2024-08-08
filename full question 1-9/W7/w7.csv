@@ -1,0 +1,46 @@
+Question;Option A;Option B;Option C;Option D;Option E;Correct Answer
+What is the primary advantage of using convolutional layers in CNNs?;A. They can work with non-image data;B. They reduce the size of input data;C. They automatically learn spatial hierarchies of features;D. They are simpler to implement than fully connected layers;;C
+Which activation function is most commonly used in modern CNN architectures to prevent the vanishing gradient problem?;A. Sigmoid;B. Tanh;C. ReLU;D. Linear;;C
+Which of the following is incorrect regarding pooling layers in CNNs?;A. Pooling layers help reduce dimensionality;B. Pooling layers introduce additional learnable parameters;C. Max pooling selects the highest value from the window;D. Pooling layers contribute to translation invariance;;B
+In the context of CNNs, what does 'stride' refer to?;A. The size of the filter;B. The number of layers in the network;C. The step size of the filter as it convolves over the input;D. The depth of the output feature map;;C
+What is a common strategy to address overfitting in CNN models?;A. Increase the learning rate;B. Add more layers;C. Use data augmentation;D. Remove dropout layers;;C
+Which of the following statements about dropout is false?;A. Dropout is used to prevent overfitting;B. Dropout randomly removes units during training;C. Dropout is only used during the testing phase;D. Dropout increases model generalization;;C
+Which component is responsible for transforming 3D feature maps into a 1D vector in CNNs?;A. Convolutional layer;B. Pooling layer;C. Activation function;D. Flatten layer;;D
+Which architecture introduced the concept of residual connections?;A. VGG;B. AlexNet;C. ResNet;D. GoogLeNet;;C
+Which CNN architecture is known for using Inception modules?;A. VGG16;B. AlexNet;C. GoogLeNet;D. ResNet;;C
+What is the main function of a softmax layer in CNNs?;A. To reduce input size;B. To convert logits to probabilities;C. To detect edges;D. To flatten input;;B
+Which of the following best describes transfer learning?;A. Training a new model from scratch;B. Using a pretrained model to initialize a new model;C. Using unlabeled data to train a model;D. Reducing the size of the dataset;;B
+Which of the following statements about VGG architectures is true?;A. They use large filter sizes like 11x11;B. They rely heavily on fully connected layers;C. They use small filter sizes like 3x3 consistently;D. They are designed to work without pooling layers;;C
+How does batch normalization help in training deep neural networks?;A. By reducing the model size;B. By increasing the learning rate;C. By normalizing inputs to each layer, reducing internal covariate shift;D. By decreasing dropout rates;;C
+Which is not a benefit of using deep CNNs?;A. Automatic feature extraction;B. Reduced need for manual feature engineering;C. Increased overfitting on small datasets;D. Better performance on complex image tasks;;C
+In CNNs, what does 'padding' refer to?;A. Adding extra data points to the dataset;B. Adding zeros around the border of the input;C. Reducing the dimensions of the feature maps;D. Increasing the number of convolutional layers;;B
+Which type of pooling is primarily used to down-sample input representation?;A. Average pooling;B. Max pooling;C. Min pooling;D. Sum pooling;;B
+What is the main role of the fully connected layer in a CNN?;A. To convolve feature maps;B. To down-sample the feature maps;C. To make predictions by combining all learned features;D. To perform max pooling;;C
+What is the main advantage of using ReLU over sigmoid activation function in CNNs?;A. Faster computation;B. Greater expressiveness;C. Helps with vanishing gradient problem;D. Requires fewer parameters;;C
+Which CNN architecture is known for using a very deep network with small convolution filters?;A. AlexNet;B. VGG;C. ResNet;D. GoogLeNet;;B
+What does an auxiliary classifier in GoogLeNet help prevent?;A. Overfitting;B. Underfitting;C. Vanishing gradient problem;D. Over-smoothing;;C
+What is the effect of increasing the stride in a convolutional layer?;A. Increases computational cost;B. Increases output size;C. Decreases output size;D. Has no effect on output size;;C
+In ResNet, what is the main purpose of residual connections?;A. To reduce model complexity;B. To allow gradients to flow easily through the network;C. To increase the depth of the network;D. To perform data augmentation;;B
+Which method is commonly used to prevent overfitting in CNNs?;A. Increasing the number of epochs;B. Adding more data;C. Using dropout;D. Reducing the number of layers;;C
+What does the term 'data augmentation' refer to in the context of CNNs?;A. Adding more features to each input;B. Reducing the size of each input;C. Generating additional data by transforming existing data;D. Removing outliers from the dataset;;C
+Which of the following statements about DenseNet is false?;A. It uses dense connections between layers;B. It reduces the number of parameters compared to traditional CNNs;C. It uses large filter sizes;D. It enhances feature propagation;;C
+How does the 'Squeeze-and-Excitation' block in SENet improve model performance?;A. By reducing the size of the model;B. By recalibrating channel-wise feature responses;C. By increasing the number of convolutional layers;D. By performing max pooling more effectively;;B
+What is the main purpose of using dropout in neural networks?;A. To increase the size of the network;B. To improve the training speed;C. To prevent overfitting by randomly setting units to zero;D. To ensure all neurons are active during training;;C
+Which CNN architecture popularized the use of very deep networks?;A. AlexNet;B. VGG;C. ResNet;D. GoogLeNet;;B
+Which optimization technique is most commonly used to train deep CNNs?;A. Stochastic Gradient Descent (SGD);B. Random Search;C. Genetic Algorithms;D. Bayesian Optimization;;A
+What is the primary reason for using batch normalization?;A. To increase model size;B. To accelerate training by normalizing inputs to each layer;C. To decrease overfitting by adding noise;D. To reduce the number of required training samples;;B
+Which type of padding ensures the output size is the same as the input size in CNNs?;A. Valid padding;B. Same padding;C. Zero padding;D. Full padding;;B
+Which CNN architecture introduced the concept of 'Inception modules'?;A. ResNet;B. GoogLeNet;C. VGG;D. AlexNet;;B
+What is the main characteristic of 'SqueezeNet' compared to other CNN architectures?;A. It has a very wide architecture;B. It is designed to be very deep;C. It achieves AlexNet-level accuracy with fewer parameters;D. It uses large convolution filters;;C
+In CNNs, what does a 'kernel' refer to?;A. A single layer in the network;B. The learning rate of the model;C. A matrix used in convolution operations;D. The activation function used;;C
+Which is a key benefit of using convolutional layers over fully connected layers?;A. They reduce the model's ability to generalize;B. They require more parameters;C. They can learn spatial hierarchies of features;D. They are computationally expensive;;C
+What is a common use of the softmax function in CNNs?;A. To normalize the output probabilities across multiple classes;B. To decrease the dimensionality of the feature maps;C. To improve the model's speed;D. To randomly initialize weights;;A
+In the context of CNNs, what does 'filter size' refer to?;A. The number of layers in the network;B. The dimensions of the kernel used in convolution;C. The stride length used;D. The depth of the input;;B
+Which of the following is an advantage of transfer learning?;A. It requires a large amount of labeled data;B. It is time-consuming;C. It can improve performance on small datasets by using pretrained models;D. It increases overfitting risk;;C
+What does the term 'epoch' refer to in the context of training neural networks?;A. The number of layers in the network;B. A single pass through the entire training dataset;C. The time it takes to train the model;D. The number of parameters in the model;;B
+Which CNN architecture is known for significantly reducing the vanishing gradient problem?;A. VGG;B. ResNet;C. AlexNet;D. GoogLeNet;;B
+Which process involves modifying a pretrained model to better suit a new, specific task?;A. Batch normalization;B. Transfer learning;C. Data augmentation;D. Hyperparameter tuning;;B
+What is a 'stride' in the context of a convolutional layer?;A. The activation function used;B. The step size by which the filter moves over the input;C. The size of the filter used;D. The depth of the output layer;;B
+In which scenario is max pooling typically used?;A. To increase the size of the input;B. To average input values;C. To down-sample feature maps;D. To normalize the input;;C
+Which architecture is known for its simplicity and ease of implementation?;A. GoogLeNet;B. ResNet;C. VGG;D. DenseNet;;C
+What does the ReLU activation function compute?;A. The exponential of the input;B. The maximum of zero and the input;C. The sigmoid of the input;D. The average of the input;;B
