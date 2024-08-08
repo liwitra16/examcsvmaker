@@ -1,0 +1,389 @@
+[
+    [
+        "Given a binary input image 𝐼 to which we apply the following algorithm: Step 1: Create a copy 𝐶 of input image 𝐼. Step 2: Copy the boundary pixels of 𝐶 into new image 𝐵. Step 3: Compute the reconstruction 𝑅 of 𝐶 from 𝐵. Step 4: Compute output 𝑂 by subtracting 𝑅𝑅 from 𝐼. What does the output image 𝑂 contain?",
+        "A. The same objects as the input image whatever the input.",
+        "B. The same objects as the input image but with holes filled.",
+        "C. The same objects as the input image except the boundary objects.",
+        "D. The same objects as the input image but with touching objects separated.",
+        "", 
+        "C"
+    ],
+    [
+        "Which one of the following lines describes the purpose of convolutional layers in CNNs?",
+        "A. Reducing the size of the feature maps.",
+        "B. Calculating the dot product of the input and kernels.",
+        "C. Applying a nonlinear activation function.",
+        "D. Making the network learn faster.",
+        "", 
+        "B"
+    ],
+    [
+        "Which one of the following lines describes the purpose of transfer learning?",
+        "A. Training a model from scratch for each new task.",
+        "B. Using a pretrained model and fine-tuning it for a new task.",
+        "C. Converting image data to text data to facilitate learning.",
+        "D. Combining multiple models into a single model for better performance.",
+        "", 
+        "B"
+    ],
+    [
+        "Which one of the following lines best describes the key benefit of CNNs over traditional ANNs for image classification?",
+        "A. CNNs are computationally less expensive.",
+        "B. CNNs automatically learn hierarchical features.",
+        "C. CNNs require fewer network layers.",
+        "D. CNNs can learn nonlinear mappings.",
+        "", 
+        "B"
+    ],
+    [
+        "Which one of the following networks is most suited for image segmentation tasks?",
+        "A. Multilayer perceptron (MLP)",
+        "B. Fully convolutional network (FCN)",
+        "C. Region proposal network (RPN)",
+        "D. Recurrent neural network (RNN)",
+        "", 
+        "B"
+    ],
+    [
+        "Which one of the following statements about motion analysis is incorrect?",
+        "A. Detection of moving objects by subtraction of successive images in a video works best if the background is constant.",
+        "B. Sparse motion estimation in a video can be done by template matching and minimising the mutual information measure.",
+        "C. Dense motion estimation using optical flow assumes that each small neighbourhood remains constant over time.",
+        "D. Optical flow provides an equation for each pixel but requires further constraints to solve the equation uniquely.",
+        "", 
+        "B"
+    ],
+    [
+        "Which one of the following statements about object tracking is incorrect?",
+        "A. The particle filtering method assumes that the dynamics model and the measurement model can be parameterized.",
+        "B. The hidden Markov model assumes that the measurements depend only on the current state of the objects.",
+        "C. The prediction step of Bayesian inference assumes that the current state of the objects depends only on the previous state.",
+        "D. The Kalman filtering method assumes that the dynamics and measurement noise are additive Gaussian.",
+        "", 
+        "A"
+    ],
+    [
+        "In many image processing operations, the image must be expanded a little bit to solve the boundary problem. Which one of the following types of expansion is implicitly used by the Fourier transform?",
+        "A. Padding",
+        "B. Clamping",
+        "C. Wrapping",
+        "D. Mirroring",
+        "", 
+        "A"
+    ],
+    [
+        "Given a grayscale input image 𝐼, which of the following operations will enhance the edges of the objects?",
+        "A. Applying a median filter followed by thresholding.",
+        "B. Performing dilation followed by subtraction from the original image.",
+        "C. Applying a low-pass filter to smooth the image.",
+        "D. Performing erosion followed by thresholding.",
+        "", 
+        "B"
+    ],
+    [
+        "What is the purpose of applying connected component labeling to a binary image?",
+        "A. To convert the image to grayscale.",
+        "B. To count and label distinct objects within the image.",
+        "C. To enhance the contrast of the image.",
+        "D. To remove noise by smoothing.",
+        "", 
+        "B"
+    ],
+    [
+        "Which of the following describes the effect of morphological closing on a binary image?",
+        "A. It fills small holes in the objects.",
+        "B. It sharpens the edges of objects.",
+        "C. It removes small objects from the image.",
+        "D. It reduces the size of the objects.",
+        "", 
+        "A"
+    ],
+    [
+        "Which operation is most effective for detecting the boundary of objects in a binary image?",
+        "A. Erosion followed by dilation.",
+        "B. Dilation followed by erosion.",
+        "C. Subtraction of an eroded image from the original.",
+        "D. Addition of a dilated image to the original.",
+        "", 
+        "C"
+    ],
+    [
+        "What is the result of applying the morphological gradient operation to a binary image?",
+        "A. It enhances the background.",
+        "B. It produces an image highlighting the edges of objects.",
+        "C. It reduces the contrast of the image.",
+        "D. It fills holes in the image.",
+        "", 
+        "B"
+    ],
+    [
+        "What is the primary purpose of using a pooling layer in CNNs?",
+        "A. To increase the resolution of the feature maps.",
+        "B. To reduce the computational cost by down-sampling.",
+        "C. To apply non-linear activation functions.",
+        "D. To convert images to grayscale.",
+        "", 
+        "B"
+    ],
+    [
+        "How do CNNs achieve translation invariance in image classification tasks?",
+        "A. By using fully connected layers.",
+        "B. Through the application of convolutional and pooling layers.",
+        "C. By normalizing the input images.",
+        "D. By using a high learning rate during training.",
+        "", 
+        "B"
+    ],
+    [
+        "What role do activation functions like ReLU play in CNNs?",
+        "A. They add non-linearity to the network.",
+        "B. They decrease the size of the feature maps.",
+        "C. They increase the network’s computational efficiency.",
+        "D. They perform image segmentation.",
+        "", 
+        "A"
+    ],
+    [
+        "Which feature of CNNs helps in learning spatial hierarchies of features?",
+        "A. The use of dense layers.",
+        "B. The use of convolutional filters.",
+        "C. The use of dropout layers.",
+        "D. The use of batch normalization.",
+        "", 
+        "B"
+    ],
+    [
+        "In CNNs, what is the effect of increasing the depth (number of layers) of the network?",
+        "A. It always leads to better performance.",
+        "B. It allows the network to learn more complex features.",
+        "C. It reduces the risk of overfitting.",
+        "D. It decreases the computational cost.",
+        "", 
+        "B"
+    ],
+    [
+        "What is a common approach to transfer learning in deep learning?",
+        "A. Training a shallow network from scratch.",
+        "B. Fine-tuning a pre-trained model on a new dataset.",
+        "C. Using decision trees for all classification tasks.",
+        "D. Reducing the dataset size to improve training speed.",
+        "", 
+        "B"
+    ],
+    [
+        "How does transfer learning benefit models with limited training data?",
+        "A. By requiring more data than training from scratch.",
+        "B. By providing pretrained weights that reduce overfitting.",
+        "C. By increasing the model complexity.",
+        "D. By making the model invariant to input changes.",
+        "", 
+        "B"
+    ],
+    [
+        "Which scenario is most suitable for applying transfer learning?",
+        "A. When the new task has completely different characteristics from the original task.",
+        "B. When training data for the new task is abundant and diverse.",
+        "C. When computational resources are unlimited.",
+        "D. When the new task is similar to the original task, but data is limited.",
+        "", 
+        "D"
+    ],
+    [
+        "What is the first step in transfer learning when using a pre-trained model?",
+        "A. Randomly initializing weights.",
+        "B. Freezing the initial layers and fine-tuning the final layers.",
+        "C. Increasing the learning rate significantly.",
+        "D. Reducing the number of layers in the model.",
+        "", 
+        "B"
+    ],
+    [
+        "Why is transfer learning often used in computer vision tasks?",
+        "A. It simplifies the model architecture.",
+        "B. It requires less memory than training a new model.",
+        "C. Pre-trained models capture general features that can be useful across different tasks.",
+        "D. It guarantees 100% accuracy in new tasks.",
+        "", 
+        "C"
+    ],
+    [
+        "What is a key advantage of using Fully Convolutional Networks (FCNs) for image segmentation?",
+        "A. They can handle temporal data like RNNs.",
+        "B. They process images of fixed sizes only.",
+        "C. They output segmentation maps of the same size as the input image.",
+        "D. They require a large number of labeled images.",
+        "", 
+        "C"
+    ],
+    [
+        "Which neural network architecture is specifically designed for object detection tasks?",
+        "A. Recurrent Neural Network (RNN)",
+        "B. Autoencoder",
+        "C. Region-based Convolutional Neural Network (R-CNN)",
+        "D. Multilayer Perceptron (MLP)",
+        "", 
+        "C"
+    ],
+    [
+        "How does a U-Net architecture differ from a traditional CNN?",
+        "A. It uses fully connected layers for segmentation.",
+        "B. It has a symmetric encoder-decoder structure with skip connections.",
+        "C. It only operates on grayscale images.",
+        "D. It requires manual feature extraction.",
+        "", 
+        "B"
+    ],
+    [
+        "What is the main role of skip connections in segmentation networks like U-Net?",
+        "A. To increase computational efficiency.",
+        "B. To enhance feature extraction by connecting encoder and decoder layers.",
+        "C. To reduce model complexity.",
+        "D. To convert images to a lower resolution.",
+        "", 
+        "B"
+    ],
+    [
+        "Which of the following networks is best suited for real-time image segmentation tasks?",
+        "A. DenseNet",
+        "B. MobileNet",
+        "C. SegNet",
+        "D. AlexNet",
+        "", 
+        "C"
+    ],
+    [
+        "Which method is commonly used for dense motion estimation in videos?",
+        "A. Histogram matching",
+        "B. Optical flow",
+        "C. Edge detection",
+        "D. Template matching",
+        "", 
+        "B"
+    ],
+    [
+        "What is a key assumption of the optical flow method in motion analysis?",
+        "A. Objects change shape rapidly.",
+        "B. Intensity of a pixel remains constant as it moves.",
+        "C. Motion is discontinuous across frames.",
+        "D. Background remains static.",
+        "", 
+        "B"
+    ],
+    [
+        "How does frame differencing help in motion detection?",
+        "A. It smooths out noise by averaging frames.",
+        "B. It detects motion by highlighting differences between consecutive frames.",
+        "C. It tracks object motion over long durations.",
+        "D. It enhances the edges of moving objects.",
+        "", 
+        "B"
+    ],
+    [
+        "Which approach is best suited for tracking fast-moving objects in video sequences?",
+        "A. Template matching",
+        "B. Particle filtering",
+        "C. Low-pass filtering",
+        "D. Morphological operations",
+        "", 
+        "B"
+    ],
+    [
+        "In motion analysis, what is the main advantage of using feature-based methods over dense methods?",
+        "A. They are more computationally intensive.",
+        "B. They provide higher accuracy in estimating motion.",
+        "C. They are more efficient for real-time applications.",
+        "D. They require a larger dataset for training.",
+        "", 
+        "C"
+    ],
+    [
+        "Which one of the following statements about Kalman filtering is correct?",
+        "A. It is only applicable to linear systems.",
+        "B. It cannot handle noise in measurements.",
+        "C. It requires the state to be directly observable.",
+        "D. It assumes a uniform distribution of states.",
+        "", 
+        "A"
+    ],
+    [
+        "What is a common assumption in the particle filtering method for object tracking?",
+        "A. The measurement noise is uniform.",
+        "B. The system dynamics can be non-linear.",
+        "C. The state space is fully observable.",
+        "D. The model parameters are fixed.",
+        "", 
+        "B"
+    ],
+    [
+        "Which tracking method is most suitable for handling abrupt changes in object motion?",
+        "A. Kalman filter",
+        "B. Template matching",
+        "C. Optical flow",
+        "D. Particle filter",
+        "", 
+        "D"
+    ],
+    [
+        "How does the Bayesian inference approach assist in object tracking?",
+        "A. By making deterministic predictions.",
+        "B. By updating predictions based on observed data.",
+        "C. By ignoring prior knowledge.",
+        "D. By reducing the model complexity.",
+        "", 
+        "B"
+    ],
+    [
+        "What is the main limitation of the mean-shift algorithm in object tracking?",
+        "A. It requires a large amount of labeled data.",
+        "B. It can be slow in real-time applications.",
+        "C. It struggles with non-rigid object shapes.",
+        "D. It cannot handle variable lighting conditions.",
+        "", 
+        "C"
+    ],
+    [
+        "Which expansion technique is most commonly used with Fourier transforms to handle boundary artifacts?",
+        "A. Zero-padding",
+        "B. Clamping",
+        "C. Bilinear interpolation",
+        "D. Thresholding",
+        "", 
+        "A"
+    ],
+    [
+        "What is the purpose of using zero-padding in the context of the Fourier transform?",
+        "A. To enhance image resolution.",
+        "B. To prevent aliasing by increasing the image size.",
+        "C. To reduce the number of frequency components.",
+        "D. To convert the image to grayscale.",
+        "", 
+        "B"
+    ],
+    [
+        "How does wrapping differ from mirroring as an expansion technique?",
+        "A. Wrapping repeats the image, while mirroring flips the image at the boundary.",
+        "B. Wrapping reduces image size, while mirroring enlarges it.",
+        "C. Wrapping smooths the edges, while mirroring sharpens them.",
+        "D. Wrapping increases image contrast, while mirroring reduces it.",
+        "", 
+        "A"
+    ],
+    [
+        "What is the main advantage of using mirroring over zero-padding in image processing?",
+        "A. It is computationally more efficient.",
+        "B. It preserves more spatial details at boundaries.",
+        "C. It reduces the frequency components.",
+        "D. It enhances contrast.",
+        "", 
+        "B"
+    ],
+    [
+        "Why is padding often used when applying convolution operations in the spatial domain?",
+        "A. To decrease computational complexity.",
+        "B. To ensure the output size matches the input size.",
+        "C. To increase the number of convolutional layers.",
+        "D. To avoid non-linear transformations.",
+        "", 
+        "B"
+    ]
+]

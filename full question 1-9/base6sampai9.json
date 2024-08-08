@@ -1,0 +1,38 @@
+[
+    [
+        "Which one of the following statements about data augmentation for image classification using CNNs is correct?",
+        "A. Augmentation increases the number of parameters in the model.",
+        "B. Augmentation reduces the size of the dataset to speed up training.",
+        "C. Augmentation generates new training data by transforming the existing data.",
+        "D. Augmentation reduces the depth of the network for better performance.",
+        "", 
+        "C"
+    ],
+    [
+        "Which one of the following statements about image segmentation methods is incorrect?",
+        "A. Thresholding based on pixel intensity yields poor results if the regions to be segmented have overlapping intensity distributions.",
+        "B. Level-set segmentation uses an object boundary representation that makes it hard to deal with topological changes.",
+        "C. Region splitting techniques aim to optimize some metric of intra-region similarity and inter-region dissimilarity.",
+        "D. Watershed segmentation often results in over-segmentation because image regions may contain multiple local minima.",
+        "", 
+        "B"
+    ],
+    [
+        "Suppose we have a 2D image that is very noisy and we want to smooth it by filtering with a uniform kernel of size 5×5 voxels. Let 𝑆 be the total number of floating-point operations required per pixel to perform the operation when using a dimensionally separated implementation of the filter. And let 𝑁 be the total number of floating-point operations required per pixel to perform the operation when using a dimensionally nonseparated implementation of the filter. What is the ratio 𝑆/𝑁 (as a percentage rounded to one decimal)?",
+        "A. 36.7%",
+        "B. 40.0%",
+        "C. 58.8%",
+        "D. 66.7%",
+        "", 
+        "A"
+    ],
+    [
+        "Given the following 2D convolution kernel: 1|1|-1, 2|0|-2, 1|0|-1. Which one of the following correctly describes the effect of this kernel when applied to an image?",
+        "A. Smoothing in 𝑥𝑥 and first-order differentiation in 𝑦𝑦.",
+        "B. Smoothing in 𝑥𝑥 and second-order differentiation in 𝑦𝑦.",
+        "C. First-order differentiation in 𝑥𝑥 and smoothing in 𝑦𝑦.",
+        "D. Second-order differentiation in 𝑥𝑥 and smoothing in 𝑦𝑦.",
+        "", 
+        "C"
+    ]
+]
